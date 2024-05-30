@@ -64,7 +64,7 @@ The code above will take some time to execute because a lot of threads will be c
 The package has not been stress tested. Use at your own risk. However, given the simplicity of the algorithm and the fact that python float has a 53 bit precision, I personally don't see any issue with numerical stability or any other thing for that matter.
 
 ## Github
-Link to the repo - [CVM Python Implementation](https://github.com/jinh-tech/cvm_python). The core implementation is present in [this file](https://github.com/jinh-tech/cvm_python/blob/main/src/cvm/cvm.py) and is quite small and easy to read. 
+Link to the repo - [CVM Python Implementation](https://github.com/jinh-tech/cvm_python). The core implementation is present in [this file](https://github.com/jinh-tech/cvm_python/blob/main/src/cvm.py) and is quite small and easy to read. 
 Please feel free to raise issues, PRs etc in the repo.
 
 ## License
