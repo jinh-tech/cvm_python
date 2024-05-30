@@ -1,6 +1,6 @@
 """Main module. Contains the class CVM which implements the algorithm"""
 from threading import Semaphore
-from cvm.util_funcs import coin_toss
+from src.util_funcs import coin_toss
 
 class CVM:
     """Implements the record and estimate functions"""
