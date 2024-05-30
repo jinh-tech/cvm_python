@@ -2,9 +2,9 @@
 Python implementation of the CVM algorithm which estimates the number of unique items in a stream.
 The algorithm is memory efficient and can estimate unique number of elements quite accurately depending on the memory allocated to the algorithm.
 
-For more details
-Link to technical paper - [Distinct Elements in Streams: An Algorithm for the (Text) Book](https://arxiv.org/abs/2301.10191)
-Link to easy to ready blog for non-technical users - [Computer Scientists Invent an Efficient New Way to Count](https://www.quantamagazine.org/computer-scientists-invent-an-efficient-new-way-to-count-20240516/)
+For more details - 
+- Link to technical paper - [Distinct Elements in Streams: An Algorithm for the (Text) Book](https://arxiv.org/abs/2301.10191)
+- Link to easy to ready blog for non-technical users - [Computer Scientists Invent an Efficient New Way to Count](https://www.quantamagazine.org/computer-scientists-invent-an-efficient-new-way-to-count-20240516/)
 
 ## Installation
 The package only requires `python = "^3.6"`. There are no other dependencies that require installation.
