@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cvm"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["jinh-tech <5562645+jinh-tech@users.noreply.github.com>"]
 readme = "README.md"
