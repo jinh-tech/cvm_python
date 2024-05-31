@@ -7,7 +7,7 @@ from os import listdir
 from os.path import isfile, join
 from joblib import Parallel, delayed
 
-import cvm
+import cvm_count
 
 
 @pytest.fixture
@@ -26,7 +26,7 @@ def get_shakespeare_texts():
 def test_estimate(get_shakespeare_texts):
     
     word_list = get_shakespeare_texts
-    counter = cvm.CVM(1000)
+    counter = cvm_count.CVM(1000)
 
     for word in word_list:
         counter.record(word)
@@ -43,7 +43,7 @@ def test_estimate(get_shakespeare_texts):
 def test_estimate_multi_thread(get_shakespeare_texts):
     
     word_list = get_shakespeare_texts
-    counter = cvm.CVM(1000, multi_threading=True)
+    counter = cvm_count.CVM(1000, multi_threading=True)
 
     Parallel(n_jobs=10, prefer="threads")(delayed(counter.record)(word) for word in word_list)
 
